@@ -17,6 +17,9 @@ This project demonstrates the principles of fairness, transparency, and automati
 
 <img width="1920" height="1080" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/8c9f2808-6e8d-4c6e-8d53-173edf05614d" />
 
+<img width="1908" height="899" alt="Screenshot 2025-10-29 135437" src="https://github.com/user-attachments/assets/9192e48e-0846-40ac-a1f7-eefa13fe78eb" />
+
+
 ---
 
 ## ⚙️ What It Does
@@ -181,28 +184,28 @@ contract DrawChain {
 ```
 ## 🧩 How to Use
 
-Deploy or interact with the existing contract on Celo Sepolia.
+- Deploy or interact with the existing contract on Celo Sepolia.
 
-Call createDraw(commitDuration, revealDuration) to start a new draw.
+- Call createDraw(commitDuration, revealDuration) to start a new draw.
 
-During the commit phase, call commit(drawId, commitment) where
+- During the commit phase, call commit(drawId, commitment) where
 commitment = keccak256(abi.encodePacked(secret)).
 
-Once the reveal phase starts, call reveal(drawId, secret) to publish your secret.
+- Once the reveal phase starts, call reveal(drawId, secret) to publish your secret.
 
-After the reveal phase ends, call finalize(drawId) to automatically pick a winner.
+- After the reveal phase ends, call finalize(drawId) to automatically pick a winner.
 
-View all details using getDrawInfo(drawId) or check winners via the explorer.
+- View all details using getDrawInfo(drawId) or check winners via the explorer.
 
 ## 🧰 Tech Stack
 
-Language: Solidity ^0.8.19
+- Language: Solidity ^0.8.19
 
-Network: Celo Sepolia Testnet
+- Network: Celo Sepolia Testnet
 
-Compiler: Remix / Hardhat compatible
+- Compiler: Remix / Hardhat compatible
 
-License: MIT
+- License: MIT
 
 ## 💡 Future Enhancements
 
