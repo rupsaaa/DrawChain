@@ -176,4 +176,48 @@ contract DrawChain {
     }
 }
 
+```
+## 🧩 How to Use
+
+Deploy or interact with the existing contract on Celo Sepolia.
+
+Call createDraw(commitDuration, revealDuration) to start a new draw.
+
+During the commit phase, call commit(drawId, commitment) where
+commitment = keccak256(abi.encodePacked(secret)).
+
+Once the reveal phase starts, call reveal(drawId, secret) to publish your secret.
+
+After the reveal phase ends, call finalize(drawId) to automatically pick a winner.
+
+View all details using getDrawInfo(drawId) or check winners via the explorer.
+
+## 🧰 Tech Stack
+
+Language: Solidity ^0.8.19
+
+Network: Celo Sepolia Testnet
+
+Compiler: Remix / Hardhat compatible
+
+License: MIT
+
+## 💡 Future Enhancements
+
+🔗 Integration with Chainlink VRF for cryptographic randomness
+
+💰 Add entry fees & on-chain prize pool distribution
+
+🧠 Enhanced UI for tracking live draws
+
+🧾 Add participant incentives for revealing secrets
+
+## 👨‍💻 Author
+
+Rupsa Bhattacharjee
+
+📬 [LinkedIn](https://www.linkedin.com/in/rupsa-bhattacharjee/)
+
+💻[GitHub](https://github.com/rupsaaa/)
+
 
