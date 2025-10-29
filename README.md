@@ -1,9 +1,9 @@
 
 # 🎯 DrawChain
 
-> **Automated, Provably Fair On-Chain Draw System**  
-> Built on Solidity — deployed on the **Celo Sepolia Testnet**  
-> ✨ Transparent • Trustless • Verifiable ✨
+- **Automated, Provably Fair On-Chain Draw System**  
+- Built on Solidity — deployed on the **Celo Sepolia Testnet**  
+- ✨ Transparent • Trustless • Verifiable ✨
 
 ---
 
@@ -13,6 +13,9 @@
 It uses the **commit-reveal** pattern to ensure that every participant has an equal and verifiable chance to win — without relying on any centralized authority or off-chain randomness.
 
 This project demonstrates the principles of fairness, transparency, and automation in blockchain-based draw systems.
+
+
+<img width="1920" height="1080" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/8c9f2808-6e8d-4c6e-8d53-173edf05614d" />
 
 ---
 
@@ -46,7 +49,6 @@ You can interact with it directly via the [Celo Blockscout Explorer](https://cel
 
 ---
 
-<img width="1920" height="1080" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/8c9f2808-6e8d-4c6e-8d53-173edf05614d" />
 
 
 ## 🧠 Smart Contract Code
@@ -219,5 +221,7 @@ Rupsa Bhattacharjee
 📬 [LinkedIn](https://www.linkedin.com/in/rupsa-bhattacharjee/)
 
 💻[GitHub](https://github.com/rupsaaa/)
+
+---
 
 
